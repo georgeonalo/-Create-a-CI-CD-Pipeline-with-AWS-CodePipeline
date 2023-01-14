@@ -89,10 +89,13 @@ To verify that the Code Pipeline is triggered I will make a change to the code i
 
 Checking on the Pipeline back in the AWS console you can actually see the Pipeline at work. It is automatically taking in the changes and executing them.
 
+![cicd6](https://user-images.githubusercontent.com/115881685/212471941-cfda26c7-25d8-4306-9fc5-24724844c4f1.png)
 
+When refreshing the static website the changes I made to the file should appear.
 
+![cicd8](https://user-images.githubusercontent.com/115881685/212471975-5007b3ad-8ceb-4e21-9bd3-f2d8965b3af5.png)
 
-
+And it worked! The CodePipeline was triggered and updated on the website. All using GitHub, CodePipeline, CodeBuild, and S3.
 
 
 
