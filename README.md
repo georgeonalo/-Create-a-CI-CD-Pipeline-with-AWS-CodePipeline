@@ -1,6 +1,5 @@
 # Create a CI/CD Pipeline with AWS CodePipeline
 
-![image](https://user-images.githubusercontent.com/115881685/212470830-e7195a87-06fe-4881-aa01-bc458052b964.png)
 
 In this project, I will go over how to create a CI/CD pipeline with AWS CodePipeline. CI/CD stands for continuous integration and continuous deployment. Implementing a pipeline makes it a series of steps to automate the process of delivering new versions of software. The steps are; to build the code, run tests, and safely deploy. I will be using Github for the source code and an S3 bucket for the deploy stage.
 
